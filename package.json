@@ -1,0 +1,29 @@
+{
+  "name": "bike-cases",
+  "version": "1.0.0",
+  "description": "code chalenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nickadimas79/coding-challenge-backend-nodejs.git"
+  },
+  "author": "Josh Morehead",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nickadimas79/coding-challenge-backend-nodejs/issues"
+  },
+  "homepage": "https://github.com/Nickadimas79/coding-challenge-backend-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.5"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.0"
+  }
+}
